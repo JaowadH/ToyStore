@@ -1,0 +1,97 @@
+/* Checkout.css - Dark Mode */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #E0E0E0; /* Light text for contrast */
+}
+
+.checkout-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #1E1E1E; /* Darker card background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  color: #4FC3F7; /* Vibrant accent color */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #B0BEC5; /* Slightly muted text for labels */
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #424242; /* Subtle border */
+  background-color: #212121; /* Dark input background */
+  color: #E0E0E0; /* Light text */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23E0E0E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 40px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #4FC3F7; /* Highlighted border on focus */
+  outline: none;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #121212; /* Text color on button */
+  background-color: #4FC3F7; /* Vibrant button color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #29B6F6; /* Slightly lighter on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .checkout-container {
+      margin: 20px;
+      padding: 15px;
+  }
+
+  .form-group input,
+  .form-group select {
+      font-size: 14px;
+  }
+
+  .submit-button {
+      font-size: 16px;
+  }
+}

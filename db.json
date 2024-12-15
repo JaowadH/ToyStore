@@ -1,0 +1,490 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "The-Joy",
+			"description": "Unbox The Joy, the first figure in the SKULLPANDA The Sound Series, blending unique design with musical-inspired magic. A must-have collectible for fans, each blind box offers a fun surprise!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID1_The-Joy.jpg",
+			"available": 7
+		},
+		{
+			"id": 2,
+			"name": "The-Anger",
+			"description": "Unbox The Anger, the powerful second figure in the SKULLPANDA The Sound Series, capturing intense emotion with striking design. Each blind box is a thrilling surprise for fans and collectors alike!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID2_The-Anger.jpg",
+			"available": 10
+		},
+		{
+			"id": 3,
+			"name": "The-Serenity",
+			"description": "Unbox The Serenity, the calming third figure in the SKULLPANDA The Sound Series, featuring a soothing design that radiates peace and tranquility. A perfect collectible for fans, each blind box reveals a peaceful surprise!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID3_The-Serenity.jpg",
+			"available": 19
+		},
+		{
+			"id": 4,
+			"name": "The-Pensiveness",
+			"description": "Unbox The Pensiveness, the thoughtful fourth figure in the SKULLPANDA The Sound Series, capturing deep reflection with intricate design. Each blind box offers a unique collectible experience for fans and collectors!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID4_The-Pensiveness.jpg",
+			"available": 5
+		},
+		{
+			"id": 5,
+			"name": "The-Trust",
+			"description": "Unbox The Trust, the fifth figure in the SKULLPANDA The Sound Series, symbolizing loyalty and connection with a beautifully detailed design. Each blind box delivers a surprise that’s perfect for collectors and fans alike!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID5_The-Trust.jpg",
+			"available": 2
+		},
+		{
+			"id": 6,
+			"name": "The-Ecstasy",
+			"descriptin": "Unbox The Ecstasy, the exhilarating sixth figure in the SKULLPANDA The Sound Series, capturing pure joy and excitement with vibrant design. Each blind box offers a thrilling surprise for collectors and fans!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID6_The-Ecstasy.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 7,
+			"name": "The-Grief",
+			"description": "Unbox The Grief, the emotionally intense figure in the SKULLPANDA The Sound Series, capturing sorrow and reflection with a poignant design. Each blind box offers a unique collectible experience for fans and collectors!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID7_The-Grief.jpg",
+			"available": 8
+		},
+		{
+			"id": 8,
+			"name": "The-Admiration",
+			"description": "Unbox The Admiration, a figure that embodies reverence and awe, with a beautifully detailed design in the SKULLPANDA The Sound Series. Each blind box reveals a captivating collectible for fans and collectors alike!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID8_The-Admiration.jpg",
+			"available": 25
+		},
+		{
+			"id": 9,
+			"name": "The-Terror",
+			"description": "Unbox The Terror, a chilling figure in the SKULLPANDA The Sound Series, capturing fear and intensity with a bold, striking design. Each blind box offers a thrilling surprise for collectors and fans!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID9_The-Terror.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 10,
+			"name": "The-Vigilance",
+			"description": "Unbox The Vigilance, a figure that embodies alertness and focus, with a sharp, detailed design in the SKULLPANDA The Sound Series. Each blind box reveals a captivating collectible for fans and collectors!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID10_The-Vigilance.jpg",
+			"available": 10
+		},
+		{
+			"id": 11,
+			"name": "The-Awe",
+			"description": "Unbox The Awe, a figure that captures wonder and amazement with its intricate design in the SKULLPANDA The Sound Series. Each blind box offers a stunning surprise for collectors and fans alike!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID11_The-Awe.jpg",
+			"available": 15
+		},
+		{
+			"id": 12,
+			"name": "The-Equilibrium",
+			"description": "Unbox The Equilibrium, a figure that symbolizes balance and harmony, with a beautifully crafted design in the SKULLPANDA The Sound Series. Each blind box offers a serene surprise for collectors and fans!",
+			"price": 23.99,
+			"category": "Skullpanda",
+			"image": "http://localhost:3001/Images/ID12_The-Equilibrium.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 13,
+			"name": "Yin-yang",
+			"description": "Unbox Yin-yang, the first figure in the Hirono × CLOT Series, blending contrasting elements of balance and duality with a sleek, modern design. A must-have collectible, each blind box reveals a harmonious surprise for fans and collectors!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/ID13_Yin-yang.jpg",
+			"available": 12
+		},
+		{
+			"id": 14,
+			"name": "Kung-Fu",
+			"description": "Unbox Kung Fu, a dynamic figure in the Hirono × CLOT Series that channels strength, skill, and energy through bold design. Each blind box offers a powerful surprise, perfect for collectors and martial arts enthusiasts!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/ID14_Kung-Fu.jpg",
+			"available": 7
+		},
+		{
+			"id": 15,
+			"name": "Alienegra",
+			"description": "Unbox Alienegra, a mysterious figure in the Hirono × CLOT Series that blends futuristic alien aesthetics with a dark, edgy design. Each blind box reveals a unique, otherworldly surprise for fans and collectors!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/Id15_Alienegra.jpg",
+			"available": 10
+		},
+		{
+			"id": 16,
+			"name": "Chinese",
+			"description": "Unbox Chinese, a figure in the Hirono × CLOT Series that celebrates rich cultural heritage with a bold, artistic design. Each blind box offers a stunning surprise that captures the spirit of tradition and modern style for collectors!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/Id16_Chinese.jpg",
+			"available": 3
+		},
+		{
+			"id": 17,
+			"name": "Terracotta-Army",
+			"description": "Unbox Terracotta-Army, a striking figure in the Hirono × CLOT Series inspired by the ancient warrior statues, combining tradition with contemporary design. Each blind box reveals a powerful collectible that honors history with a modern twist!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/ID17_Terracotta-Army.jpg",
+			"available": 1
+		},
+		{
+			"id": 18,
+			"name": "Silk-Royale",
+			"description": "Unbox Silk Royale, a luxurious figure in the Hirono × CLOT Series that blends opulent design with intricate detail, inspired by the elegance of silk. Each blind box offers a refined surprise, perfect for collectors who appreciate both beauty and craftsmanship!",
+			"price": 21.99,
+			"category": "Hirono",
+			"image": "http://localhost:3001/Images/ID18_Silk-Royale.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 19,
+			"name": "Captain-K",
+			"description": "Unbox Captain K, the first figure in the KUBO Select Your Character Series, bringing a bold and heroic design to your collection. Each blind box offers a thrilling surprise for fans, with Captain K standing as the perfect leader to kickstart your journey!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID19_Captain-K.jpg",
+			"available": 90
+		},
+		{
+			"id": 20,
+			"name": "No.330",
+			"description": "Unbox No.330, a unique figure in the KUBO Select Your Character Series, featuring a sleek, futuristic design with intricate details. Each blind box delivers a distinctive surprise, making No.330 an exciting addition for collectors!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID20_No.330.jpg",
+			"available": 7
+		},
+		{
+			"id": 21,
+			"name": "Codebreaker",
+			"description": "Unbox Codebreaker, a figure in the KUBO Select Your Character Series that channels mystery and intelligence through a sleek, cryptic design. Each blind box offers a thrilling surprise, perfect for fans and collectors who love solving secrets!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID21_Codebreaker.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 22,
+			"name": "Future-Warrior",
+			"description": "Unbox Future Warrior, a dynamic figure in the KUBO Select Your Character Series, combining futuristic armor and fierce determination. Each blind box reveals a powerful surprise, making Future Warrior the perfect addition for fans and collectors of bold design!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID22_Future-Warrior.jpg",
+			"available": 5
+		},
+		{
+			"id": 23,
+			"name": "Light-Rider",
+			"description": "Unbox Light Rider, a sleek, high-speed figure in the KUBO Select Your Character Series, embodying speed and agility with a futuristic design. Each blind box offers an electrifying surprise, perfect for collectors who crave action and innovation!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/Id23_Light-Rider.jpg",
+			"available": 4
+		},
+		{
+			"id": 24,
+			"name": "Flaming-Fist",
+			"description": "Unbox Flaming Fist, a fiery figure in the KUBO Select Your Character Series, radiating power and intensity with dynamic flame-inspired design. Each blind box delivers a heated surprise, perfect for fans and collectors who crave bold action!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID24_Flaming-Fist.jpg",
+			"available": 2
+		},
+		{
+			"id": 25,
+			"name": "Kubo-OL",
+			"description": "Unbox Kubo OL, a sleek and stylish figure in the KUBO Select Your Character Series, blending modern office flair with unique character design. Each blind box offers a fun and surprising collectible, perfect for fans who love clever and contemporary designs!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID25_Kubo-OL.jpg",
+			"available": 4
+		},
+		{
+			"id": 26,
+			"name": "Doombringer",
+			"description": "Unbox Doombringer, a fierce and imposing figure in the KUBO Select Your Character Series, radiating dark energy and strength with an eye-catching design. Each blind box offers a powerful surprise, perfect for collectors who embrace bold, dramatic characters!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID26_Doombringer.jpg",
+			"available": 8
+		},
+		{
+			"id": 27,
+			"name": "Falcon",
+			"description": "Unbox Falcon, a sleek and agile figure in the KUBO Select Your Character Series, capturing the spirit of speed and freedom with a dynamic design. Each blind box delivers a high-flying surprise, perfect for fans and collectors who admire precision and power!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID27_Falcon.jpg",
+			"available": 12
+		},
+		{
+			"id": 28,
+			"name": "Source-Code",
+			"description": "Unbox Source Code, a tech-inspired figure in the KUBO Select Your Character Series, merging futuristic design with digital energy. Each blind box reveals a unique, high-tech surprise, perfect for fans and collectors who appreciate cutting-edge innovation!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID28_Source-Code.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 29,
+			"name": "Dreamcatcher",
+			"description": "Unbox Dreamcatcher, a mystical figure in the KUBO Select Your Character Series, capturing the essence of dreams and protection with a beautifully intricate design. Each blind box offers a magical surprise, perfect for collectors who appreciate fantasy and symbolism!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID29_Dreamcatcher.jpg",
+			"available": 6
+		},
+		{
+			"id": 30,
+			"name": "Alchemist",
+			"description": "Unbox Alchemist, a mysterious and transformative figure in the KUBO Select Your Character Series, blending science and magic with a detailed, enchanting design. Each blind box reveals a captivating surprise, perfect for fans and collectors who love the art of creation!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID30_Alchemist.jpg",
+			"available": 10
+		},
+		{
+			"id": 31,
+			"name": "Player",
+			"description": "Unbox Player, a sleek and strategic figure in the KUBO Select Your Character Series, embodying precision and skill with a dynamic, game-inspired design. Each blind box offers a winning surprise, perfect for fans and collectors who thrive on competition and adventure!",
+			"price": 22.99,
+			"category": "Kubo",
+			"image": "http://localhost:3001/Images/ID31_Player.jpg",
+			"available": 7
+		},
+		{
+			"id": 32,
+			"name": "Pleasure",
+			"description": "Unbox Pleasure, the first figure in the DIMOO By Your Side Series, radiating joy and positivity with a sweet, playful design. Each blind box brings a delightful surprise, perfect for fans and collectors who love charm and happiness by their side!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID32_Pleasure.jpg",
+			"available": 5
+		},
+		{
+			"id": 33,
+			"name": "Cheer-Up",
+			"description": "Unbox Cheer Up, a figure in the DIMOO By Your Side Series that brings smiles and positivity with its uplifting design. Each blind box reveals a heartwarming surprise, perfect for fans and collectors who could use a little extra joy!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID33_Cheer-up.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 34,
+			"name": "Don't-Be-Afraid",
+			"description": "Unbox Don’t Be Afraid, a comforting figure in the DIMOO By Your Side Series, offering courage and reassurance with its gentle, supportive design. Each blind box reveals an uplifting surprise, perfect for fans and collectors who embrace positivity and strength!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID34_Don't-Be-Afraid.jpg",
+			"available": 11
+		},
+		{
+			"id": 35,
+			"name": "Don't-Overthink",
+			"description": "Unbox Don’t Overthink, a calming figure in the DIMOO By Your Side Series, designed to bring a sense of peace and clarity with its soothing, minimalist design. Each blind box offers a refreshing surprise, perfect for fans and collectors who appreciate simplicity and mindfulness!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID35_Don't-Overthink.jpg",
+			"available": 9
+		},
+		{
+			"id": 36,
+			"name": "Calm-Down",
+			"description": "Unbox Calm Down, a serene figure in the DIMOO By Your Side Series, designed to bring tranquility and balance with its peaceful, soothing design. Each blind box offers a relaxing surprise, perfect for fans and collectors who appreciate moments of calm.",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID36_Calm-Down.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 37,
+			"name": "Embrace-Emotions",
+			"description": "Unbox Embrace Emotions, a heartfelt figure in the DIMOO By Your Side Series, celebrating the beauty of feeling with a warm and expressive design. Each blind box offers an inspiring surprise, perfect for fans and collectors who value emotional connection and authenticity.",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID37_Embrace-Emotions.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 38,
+			"name": "Peace-Of-Mind",
+			"description": "Unbox Peace of Mind, a calming figure in the DIMOO By Your Side Series, designed to evoke tranquility and inner balance with its serene and harmonious design. Each blind box reveals a soothing surprise, perfect for fans and collectors seeking a moment of peace in their collection.",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID38_Peace-Of-Mind.jpg",
+			"available": 9
+		},
+		{
+			"id": 39,
+			"name": "Startled",
+			"description": "Unbox Startled, a figure in the DIMOO By Your Side Series that captures the surprise and excitement of unexpected moments with a playful, expressive design. Each blind box offers a fun and thrilling surprise, perfect for fans and collectors who love a dash of spontaneity!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID39_Startled.jpg",
+			"available": 12
+		},
+		{
+			"id": 40,
+			"name": "Candy-For-You",
+			"description": "Unbox Candy for You, a sweet and charming figure in the DIMOO By Your Side Series, offering a burst of sweetness with its adorable, candy-inspired design. Each blind box reveals a delightful surprise, perfect for fans and collectors who love a little extra sweetness in their collection!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID40_Candy-For-You.jpg",
+			"available": 17
+		},
+		{
+			"id": 41,
+			"name": "Shielded",
+			"description": "Unbox Shielded, a protective figure in the DIMOO By Your Side Series, designed to convey strength and security with its bold, armored design. Each blind box offers a reassuring surprise, perfect for fans and collectors who value protection and resilience!",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID41_Shielded.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 42,
+			"name": "Meditation",
+			"description": "Unbox Meditation, a tranquil figure in the DIMOO By Your Side Series, capturing the essence of inner peace and mindfulness with its calming, centered design. Each blind box offers a serene surprise, perfect for fans and collectors who seek harmony and balance.",
+			"price": 20.99,
+			"category": "Dimoo",
+			"image": "http://localhost:3001/Images/ID42_Meditation.jpg",
+			"available": 15
+		},
+		{
+			"id": 43,
+			"name": "The-Beginning",
+			"description": "Unbox The Beginning, the first figure in the PUCKY Poko's Adventure Series, marking the start of an epic journey with a whimsical, adventurous design. Each blind box offers a captivating surprise, perfect for fans and collectors eager to join Poko on their exciting new adventure!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID43_The-Beginning.jpg",
+			"available": 21
+		},
+		{
+			"id": 44,
+			"name": "Poko's-Fantasy",
+			"description": "Unbox Poko's Fantasy, a magical figure in the PUCKY Poko's Adventure Series, bringing Poko's dreams and imagination to life with a whimsical, enchanting design. Each blind box offers a dreamy surprise, perfect for fans and collectors who love a touch of fantasy and wonder!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID44_Poko's-Fantasy.jpg",
+			"available": 8
+		},
+		{
+			"id": 45,
+			"name": "Departure",
+			"description": "Unbox Departure, a figure in the PUCKY Poko's Adventure Series that marks the start of a bold journey with a sense of excitement and curiosity. Each blind box offers an inspiring surprise, perfect for fans and collectors ready to embark on an adventure with Poko!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID45_Departure.jpg",
+			"available": 50
+		},
+		{
+			"id": 46,
+			"name": "Oh-No",
+			"description": "Unbox Oh No, a playful and dramatic figure in the PUCKY Poko's Adventure Series, capturing the moment of surprise and mischief with a fun, expressive design. Each blind box offers a delightful twist, perfect for fans and collectors who love a little chaos in their adventure!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID46_Oh-No.jpg",
+			"available": 30
+		},
+		{
+			"id": 47,
+			"name": "Saved-By-The-Cat",
+			"description": "Unbox Saved by the Cat, a charming figure in the PUCKY Poko's Adventure Series, featuring a whimsical rescue moment with Poko and a mischievous feline friend. Each blind box reveals a heartwarming surprise, perfect for fans and collectors who love a little help from their furry companions!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID47_Saved-By-The-Cat.jpg",
+			"available": 12
+		},
+		{
+			"id": 48,
+			"name": "Break-Time",
+			"description": "Unbox Break Time, a fun and relaxed figure in the PUCKY Poko's Adventure Series, capturing the perfect moment to unwind and recharge with a playful design. Each blind box offers a refreshing surprise, perfect for fans and collectors who appreciate a well-deserved pause!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID48_Break-Time.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 49,
+			"name": "Beanie's-Decision",
+			"description": "Unbox Beanie’s Decision, a thoughtful figure in the PUCKY Poko's Adventure Series, capturing a pivotal moment of choice and reflection with a whimsical design. Each blind box offers a unique surprise, perfect for fans and collectors who enjoy moments of decision and determination!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID49_Beanie's-Decision.jpg",
+			"available": 10
+		},
+		{
+			"id": 50,
+			"name": "The-Scary-Creature",
+			"description": "Unbox The Scary Creature, a thrilling figure in the PUCKY Poko's Adventure Series, bringing to life a mysterious and spooky encounter with a bold, whimsical design. Each blind box offers an exciting surprise, perfect for fans and collectors who love a touch of adventure and suspense!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID50_The-Scary-Creature.jpg",
+			"available": "Out of Stock"
+		},
+		{
+			"id": 51,
+			"name": "Disguised",
+			"description": "Unbox Disguised, a clever figure in the PUCKY Poko's Adventure Series, capturing a playful moment of transformation with a fun and sneaky design. Each blind box offers a surprising twist, perfect for fans and collectors who love a bit of mystery and creativity!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID51_Disguised.jpg",
+			"available": 4
+		},
+		{
+			"id": 52,
+			"name": "Scare-The-Monster-Away",
+			"description": "Unbox Scare the Monster Away, an adventurous figure in the PUCKY Poko's Adventure Series, capturing the brave moment of confronting fear with a playful and bold design. Each blind box offers an exciting surprise, perfect for fans and collectors who love a bit of courage in their collection!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID52_Scared-The-Monster-Away.jpg",
+			"available": 25
+		},
+		{
+			"id": 53,
+			"name": "The-Truth",
+			"description": "Unbox The Truth, a captivating figure in the PUCKY Poko's Adventure Series, revealing a moment of clarity and revelation with an intriguing design. Each blind box offers a thought-provoking surprise, perfect for fans and collectors who enjoy uncovering hidden truths in their adventures!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID53_The-Truth.jpg",
+			"available": 4
+		},
+		{
+			"id": 54,
+			"name": "A-New-Journey",
+			"description": "Unbox A New Journey, a figure in the PUCKY Poko's Adventure Series that captures the excitement of beginning a fresh adventure with a vibrant and hopeful design. Each blind box offers an inspiring surprise, perfect for fans and collectors ready to embark on their own journey!",
+			"price": 19.99,
+			"category": "Pucky",
+			"image": "http://localhost:3001/Images/ID54_A-New-Journey.jpg",
+			"available": 15
+		}
+	]
+}

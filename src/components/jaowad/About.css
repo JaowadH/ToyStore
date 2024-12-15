@@ -1,0 +1,271 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  scroll-behavior: smooth;
+}
+
+.about-page {
+  padding: 20px;
+}
+
+header.about-header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about-header .highlight {
+  font-weight: bold;
+  color: #ff9800;
+}
+
+/* Special Features Section */
+.special-features {
+  margin: 40px 0;
+}
+
+.feature-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 200px; /* Increased height for better spacing */
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+}
+
+.feature-card {
+  flex: none;
+  width: 80%; /* Adjust width to make the layout more dynamic */
+  height: 100%;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out, transform 0.5s;
+  position: relative;
+}
+
+.feature-card.hidden {
+  display: none;
+  opacity: 0;
+  transform: translateX(-20%) scale(0.9); /* Added dynamic animation */
+}
+
+.feature-card.visible {
+  display: block;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.feature-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px; /* Increased padding for better spacing */
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.5em; /* Adjust font size */
+  animation: fadeIn 0.5s ease-in-out; /* Added fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.feature-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.feature-container:hover button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+
+/* Testimonials Section */
+.testimonials {
+  margin: 40px 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Testimonial container */
+.testimonial-container {
+  position: relative;
+  overflow: hidden;
+  height: 200px; /* Set a fixed height for consistent layout */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensure vertical centering */
+}
+
+/* Individual testimonial card */
+.testimonial-card {
+  position: absolute; /* Allows all cards to overlap in the same position */
+  top: 50%; /* Align the card to the vertical center */
+  left: 50%; /* Align the card to the horizontal center */
+  transform: translate(-50%, -50%); /* Center the card completely */
+  width: 100%; /* Ensure cards take the full container width */
+  max-width: 600px; /* Set a max width for responsiveness */
+  text-align: center;
+  transition: opacity 0.5s ease-in-out; /* Smooth opacity transition */
+  opacity: 0; /* Hide by default */
+  z-index: 0; /* Stack order for inactive cards */
+}
+
+/* Visible testimonial */
+.testimonial-card.visible {
+  opacity: 1; /* Show the card */
+  z-index: 1; /* Ensure visible card is on top */
+}
+
+/* Navigation buttons */
+.testimonial-container button {
+  position: absolute;
+  top: 50%; /* Vertically center the buttons */
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  visibility: hidden; /* Hidden by default */
+  opacity: 0; /* Invisible by default */
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.testimonial-container:hover button {
+  visibility: visible; /* Show buttons on hover */
+  opacity: 1;
+}
+
+.testimonial-container .prev-arrow {
+  left: 10px; /* Adjust button placement */
+}
+
+.testimonial-container .next-arrow {
+  right: 10px;
+}
+
+/* Styling for testimonial text */
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.author {
+  font-weight: bold;
+  color: #ff9800;
+}
+
+
+
+/* FAQ Section */
+.faq {
+  margin: 40px 0;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+  background: #1f1f1f;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+}
+
+.faq-item summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-item p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.meet-the-team {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #111010ee;
+}
+
+.meet-the-team h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  max-width: 200px;
+  text-align: center;
+}
+
+.team-member-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+
+.team-member-role {
+  font-size: 1rem;
+  color: #555;
+}
+

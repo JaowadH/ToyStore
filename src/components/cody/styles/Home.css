@@ -1,0 +1,206 @@
+/* General Styles */
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.featureContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.banner {
+  flex: 1 1 45%;
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  color: #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.banner:hover {
+  background-color: #252525;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.productHighlight {
+  flex: 1 1 45%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 10px;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.productHighlight:hover {
+  background-color: #252525;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.carousel {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 90%;
+  overflow-x: auto;
+  position: relative;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
+.productCard {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 350px;
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease-in-out, background-color 0.3s, box-shadow 0.3s;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+  background-color: #333;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.productImage {
+  max-width: 100%;
+  max-height: 70%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.productCard h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.productCard p {
+  font-size: 14px;
+  color: #b0b0b0;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+  background-color: #444;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* View Product Button */
+.viewProduct {
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.viewProduct:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.viewProduct:active {
+  transform: scale(0.95);
+}
+
+.viewProduct:focus {
+  outline: none;
+  box-shadow: 0 0 10px #1e88e5;
+}
+
+/* Text Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial Black', sans-serif;
+  color: #f0f0f0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #c0c0c0;
+}

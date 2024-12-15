@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+  background: linear-gradient(to bottom, rgb(21, 21, 26), rgb(32, 32, 40)); /* Subtle gradient */
+  padding-bottom: 110px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #e0e0e0; /* Light text color for readability */
+  height: 100%; /* Ensure full height for sticky elements */
+}
+
+/* Container Styling */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  color: #e0e0e0; /* Ensure consistent text color */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(36, 36, 46, 0.9); /* Darker background for contrast */
+  color: #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navLink {
+  color: #e0e0e0; /* Consistent text color */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.navLink:hover {
+  color: #00bcd4; /* Highlight color on hover */
+  background: rgba(255, 255, 255, 0.1); /* Fallback for hover effect */
+}
+
+/* Shopping Cart Button */
+.cartButton {
+  margin-left: 50px;
+  background-color: #1e88e5; /* Brighter blue for visibility */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  will-change: transform;
+}
+
+.cartButton:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(36, 36, 46, 0.9); /* Consistent footer background */
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerLink {
+  color: #00bcd4; /* Accent color for footer links */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footerLink:hover {
+  color: #1e88e5; /* Hover effect for footer links */
+}

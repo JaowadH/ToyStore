@@ -1,0 +1,103 @@
+/* ShoppingCart.css - Dark Theme */
+
+.shopping-cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  color: #e0e0e0; /* Light text color */
+}
+
+.shopping-cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff; /* Brighter header color */
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #d0d0d0; /* Light table text color */
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #333; /* Darker border */
+}
+
+.cart-table th {
+  background-color: #333; /* Dark header background */
+  color: #ffffff; /* Header text color */
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+.empty-cart-message {
+  color: #888;
+  font-size: 18px;
+  text-align: center;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Bright blue button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%; /* Make the button width 100% */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3; /* Darker blue hover */
+}
+
+.cart-table tbody tr:hover {
+  background-color: #2a2a2a; /* Slightly lighter background on hover */
+}
+
+.cart-quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.cart-quantity-control button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  background-color: #007bff; /* Bright blue */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-quantity-control button:disabled {
+  background-color: #555; /* Darker gray for disabled buttons */
+  cursor: not-allowed;
+}
+
+.cart-quantity-control input {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #444; /* Darker border */
+  border-radius: 4px;
+  background-color: #222; /* Dark input background */
+  color: #e0e0e0; /* Light input text */
+}

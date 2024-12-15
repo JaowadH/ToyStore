@@ -1,0 +1,140 @@
+.contact-page {
+  font-family: 'Arial', sans-serif;
+  color: #ddd;
+  background-color: #121212;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #ff9800;
+}
+
+.contact-description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+.contact-form,
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+input,
+textarea {
+  border: 1px solid #555;
+  background-color: #1e1e1e;
+  color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.input-error {
+  border-color: #ff3333;
+}
+
+.error-message {
+  color: #ff3333;
+  font-size: 0.9rem;
+}
+
+.submit-button,
+.subscribe-form button {
+  background-color: #ff9800;
+  color: #121212;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover,
+.subscribe-form button:hover {
+  background-color: #e67e00;
+}
+
+.confirmation-message,
+.subscription-confirmation {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: #2d3e2f;
+  border: 1px solid #1c5a3a;
+  border-radius: 5px;
+  color: #a5d6a7;
+  animation: fadeOut 3s ease-in-out forwards;
+}
+
+.google-map iframe {
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.subscribe-section {
+  margin-top: 40px;
+  text-align: center;
+  color: #bbb;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #555;
+  background-color: #1e1e1e;
+  color: #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
